@@ -18,8 +18,10 @@ Step 2: Run trainer.py
         
         This will generate trainedModel.yml in project directory.
         
-        Traning data-set is loaded by default from dataSet directory. You may provide your own data-set path,
-        using: trainer.py --dataset_path "/home/someDataDirectory"
+        Traning data-set is loaded by default from dataSet directory.
+        You may provide your own data-set path.
+        
+        trainer.py --dataset_path "/home/someDataDirectory"
 
 Step 3: Run detectFaces.py
         
