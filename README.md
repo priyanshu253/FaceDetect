@@ -30,7 +30,7 @@
 
 **Test OpenCV**
 
-python -c "\\
+python -c "\\\
 import cv2\
 print(cv2.\_\_version\_\_)"
 
