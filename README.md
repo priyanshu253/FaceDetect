@@ -30,9 +30,9 @@
 
 **Test OpenCV**
 
-python -c "\
-import cv2
-print(cv2.__version__)"
+python -c "\\
+import cv2\
+print(cv2.\_\_version\_\_)"
 
 
 **Steps**
