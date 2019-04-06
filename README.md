@@ -19,6 +19,8 @@
         
         sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
         
+        * symbolic links
+
         sudo ln -s /usr/lib/`uname -i`-linux-gnu/libfreetype.so /usr/lib/
         sudo ln -s /usr/lib/`uname -i`-linux-gnu/libjpeg.so /usr/lib/
         sudo ln -s /usr/lib/`uname -i`-linux-gnu/libz.so /usr/lib/
