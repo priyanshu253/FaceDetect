@@ -8,6 +8,31 @@
 * OpenCV 3.x Version
 * Python 2.7 and above Version
 
+
+**Install Lib**
+
+        sudo apt-get update
+        
+        sudo apt-get upgrade
+
+        sudo apt-get install python-opencv
+        
+        sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+        
+        sudo ln -s /usr/lib/`uname -i`-linux-gnu/libfreetype.so /usr/lib/
+        sudo ln -s /usr/lib/`uname -i`-linux-gnu/libjpeg.so /usr/lib/
+        sudo ln -s /usr/lib/`uname -i`-linux-gnu/libz.so /usr/lib/
+        
+        sudo pip install Pillow
+
+
+**Test OpenCV**
+
+python -c "\
+import cv2
+print(cv2.__version__)"
+
+
 **Steps**
 
 Step 1: Get Traning Data (Images) under 'dataSet' directory
